@@ -7,7 +7,7 @@ blockquote,q{quotes:none;}
 blockquote:before,blockquote:after,q:before,q:after{content:'';content:none;}
 table{border-collapse:collapse;border-spacing:0;}
 /* start editing from here */
-a{text-decoration:none;color:#72ACE3}
+a{text-decoration:none;}
 .txt-rt{text-align:right;}/* text align right */
 .txt-lt{text-align:left;}/* text align left */
 .txt-center{text-align:center;}/* text align center */
@@ -523,14 +523,7 @@ em,i {
 .right {
 	float:right;
 }
-a {
-	color:#666;
-	text-decoration:none;
-}
-a:hover {
-	color:#F60;
-	text-decoration:underline;
-}
+
 .clearfix {
 	*zoom:1;
 }
@@ -551,11 +544,14 @@ ul, li {
 	list-style: none;
 }
 a {
+	color:#28a1fb;
 	text-decoration: none;
 }
 a:hover{
 	text-decoration: none;
 	cursor: point;
+	color:#58a6fb;
+	
 }
 hr {
 	height: 0;
